@@ -1,0 +1,6 @@
+{
+  "name": "凡凡分解步驟小幫手 Fantextic AI Task Breakdown Assistant",
+  "description": "將複雜任務拆解成詳細步驟的AI小幫手。使用者只需輸入任務關鍵字，即可生成清晰、可執行的操作流程。",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

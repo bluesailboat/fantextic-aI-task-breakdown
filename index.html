@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantextic: 凡凡分解步驟小幫手 | AI Task Breakdown Assistant</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <style>
+      /* Custom font for better CJK character rendering */
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+      body {
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+      @keyframes fade-in {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.5s ease-out forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0-rc-f994737d14-20240522",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0-rc-f994737d14-20240522/client",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0",
+    "marked": "https://esm.sh/marked@^13.0.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-neutral-950 text-neutral-300">
+    <div id="root"></div>
+    <script type="module" src="/index.js"></script>
+  </body>
+</html>
